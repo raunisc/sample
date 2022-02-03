@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    flex-direction: column;
+    background: rgb(179, 175, 175);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: inset rgb(87, 87, 87) 4px 5px 10px 5px;
+    width: 250px;
+    height: 200px;
+    background: white;   
+}
+.but{
+    width: 20;
+    height: 15;
+    border-radius: 30%;
+    color: white;
+    font-weight: 900;
+    background-image: linear-gradient(rgb(108, 240, 90), rgb(2, 46, 20), rgb(19, 196, 19));
+}
+.but:hover{
+    background-image: linear-gradient(rgb(63, 34, 34), rgb(53, 53, 73), rgb(3, 70, 3));
+}
