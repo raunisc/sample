@@ -6,7 +6,7 @@ body{
     top: 0px;
     right: 0px;
     flex-direction: column;
-    background: rgb(179, 175, 175);
+    background: rgb(178, 175, 175);
 }
 div{
     display: flex;
